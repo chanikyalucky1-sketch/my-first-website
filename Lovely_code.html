@@ -1,0 +1,43 @@
+<
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Glowing Animated Login Form</title>
+  <link rel="stylesheet" href="my_way.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+<div class="box">
+  <div class="login">
+    <div class="loginBx">
+      <h2>
+        <i class="fa-solid fa-right-to-bracket"></i>
+          Login to Chan's Digital Universe 🌍
+        <i class="fa-solid fa-heart"></i>
+      </h2>
+      <input type="text" placeholder="Username">
+      <input type="password" placeholder="Password">
+      <input type="button" value="Sign in" onclick="showLove()"/>
+      <div class="group">
+        <a href="#">Forgot Password</a>
+        <a href="#">Sign up</a>
+      </div>
+    </div>
+  </div>
+</div>
+<p id="loveMessage" style="display:none; color:pink; font-size:22px; text-align:center;">
+    Welcome My Special Person ❤️ <br>
+    This website is only for you 🌹
+</p>
+
+<script>
+function showLove() {
+    document.getElementById("loveMessage").style.display = "block";
+}
+</script>
+  
+</body>
+</html>
